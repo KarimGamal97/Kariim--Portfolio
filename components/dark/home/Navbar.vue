@@ -5,7 +5,7 @@
         <ul class="navbar-nav main-bg d-flex justify-content-end">
           <li class="nav-item">
             <a href="#0">
-              <span>Homes</span>
+              <span>Home</span>
             </a>
           </li>
           <li class="nav-item">

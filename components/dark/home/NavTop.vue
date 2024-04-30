@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-4 valign">
           <a href="#" class="logo icon-img-60">
-            <h3>Kariiim</h3>
+            <h3>Kariim</h3>
           </a>
         </div>
         <div class="col-md-4 valign">
