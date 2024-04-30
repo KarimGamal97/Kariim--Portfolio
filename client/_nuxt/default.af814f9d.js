@@ -1,0 +1,1 @@
+import{a as r,_ as t}from"./Cursor.b8086a81.js";import{_ as a,s as c,x as o,M as _,F as m,q as l}from"./entry.9e7a06c0.js";const f={};function d(e,p){const s=r,n=t;return l(),c(m,null,[o(s),o(n),_(e.$slots,"default")],64)}const x=a(f,[["render",d]]);export{x as default};

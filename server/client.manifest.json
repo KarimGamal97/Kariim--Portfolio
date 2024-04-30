@@ -1,0 +1,253 @@
+{
+  "_Cursor.b8086a81.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "Cursor.b8086a81.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_Footer.2dacb492.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "Footer.2dacb492.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_Nav.ac9b06b3.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "Nav.ac9b06b3.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_vue.f36acd1f.d494c984.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "vue.f36acd1f.d494c984.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "layouts/default.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "default.af814f9d.js",
+    "imports": [
+      "_Cursor.b8086a81.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "layouts/default.vue"
+  },
+  "layouts/preview.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "preview.6ac2045e.js",
+    "imports": [
+      "_Cursor.b8086a81.js",
+      "_vue.f36acd1f.d494c984.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "layouts/preview.vue"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "error-404.7fc72018.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "css": [
+      "error-404.7fc72018.css"
+    ],
+    "file": "error-404.3644ee02.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js",
+      "_vue.f36acd1f.d494c984.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"
+  },
+  "error-404.7fc72018.css": {
+    "file": "error-404.7fc72018.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "error-500.c5df6088.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "css": [
+      "error-500.c5df6088.css"
+    ],
+    "file": "error-500.25db1557.js",
+    "imports": [
+      "_vue.f36acd1f.d494c984.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+  },
+  "error-500.c5df6088.css": {
+    "file": "error-500.c5df6088.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "node_modules/nuxt/dist/app/entry.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "entry.bcc36619.css",
+    "src": "node_modules/nuxt/dist/app/entry.css"
+  },
+  "node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "css": [
+      "entry.bcc36619.css"
+    ],
+    "dynamicImports": [
+      "layouts/default.vue",
+      "layouts/preview.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ],
+    "file": "entry.9e7a06c0.js",
+    "isEntry": true,
+    "src": "node_modules/nuxt/dist/app/entry.js"
+  },
+  "entry.bcc36619.css": {
+    "file": "entry.bcc36619.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "pages/dark.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "dark.b422cd3c.js",
+    "imports": [
+      "_Footer.2dacb492.js",
+      "_Cursor.b8086a81.js",
+      "_vue.f36acd1f.d494c984.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/dark.vue"
+  },
+  "pages/index.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "index.fd191adc.js",
+    "imports": [
+      "_vue.f36acd1f.d494c984.js",
+      "pages/dark.vue",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_Footer.2dacb492.js",
+      "_Cursor.b8086a81.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/index.vue"
+  },
+  "pages/single-project-diabetes.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "single-project-diabetes.3a1bba4d.js",
+    "imports": [
+      "_Footer.2dacb492.js",
+      "_Cursor.b8086a81.js",
+      "_vue.f36acd1f.d494c984.js",
+      "_Nav.ac9b06b3.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/single-project-diabetes.vue"
+  },
+  "pages/single-project-meta.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "single-project-meta.5a353a65.js",
+    "imports": [
+      "_Footer.2dacb492.js",
+      "_Cursor.b8086a81.js",
+      "_vue.f36acd1f.d494c984.js",
+      "_Nav.ac9b06b3.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/single-project-meta.vue"
+  },
+  "pages/single-project-studigrid.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "single-project-studigrid.f7ff5d87.js",
+    "imports": [
+      "_Footer.2dacb492.js",
+      "_Cursor.b8086a81.js",
+      "_vue.f36acd1f.d494c984.js",
+      "_Nav.ac9b06b3.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/single-project-studigrid.vue"
+  },
+  "pages/works.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "works.565851e2.js",
+    "imports": [
+      "_Footer.2dacb492.js",
+      "_Cursor.b8086a81.js",
+      "_vue.f36acd1f.d494c984.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_Nav.ac9b06b3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "pages/works.vue"
+  }
+}
