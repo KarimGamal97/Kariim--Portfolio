@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "/assets/imgs/serv-img/ui-ux.png",
+    "title": "UI / UX DESIGN",
+    "description": "Crafting intuitive, visually appealing, and user-friendly interfaces involves wireframing and prototyping."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/web-dev.png",
+    "title": "WEB DEVELOPMENT",
+    "description": "Creating complex interactive web apps using  HTML, CSS and JavaScript for frontend development."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/web-app.png",
+    "title": "WEB APPLICATION DEVELOPMENT",
+    "description": "Building interactive web applications using frontend frameworks like Vue.js and Nuxt."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/responsive.png",
+    "title": "Responsive Design",
+    "description": "Optimizing websites and apps for different devices ensures a seamless experience across desktops, tablets, and smartphones."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/performance.png",
+    "title": "PERFORMANCE OPTIMIZATION",
+    "description": "Optimizing frontend code and assets to improve loading times , SEO and overall performance."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/collaboration.png",
+    "title": "COLLABORATION",
+    "description": "Working closely with backend developers, designers, and other stakeholders to deliver high-quality frontend solutions."
+  }
+]

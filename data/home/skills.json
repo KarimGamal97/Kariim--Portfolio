@@ -1,0 +1,22 @@
+[
+  {
+    "photo": "/assets/imgs/resume/s1.png",
+    "title": "UI / UX Design",
+    "persent": "90%"
+  },
+  {
+    "photo": "/assets/imgs/resume/html-5.png",
+    "title": "Web Development",
+    "persent": "95%"
+  },
+  {
+    "photo": "/assets/imgs/resume/vue.svg",
+    "title": "Frameworks",
+    "persent": "90%"
+  },
+  {
+    "photo": "/assets/imgs/resume/github.png",
+    "title": "Version Control Systems",
+    "persent": "85%"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "photo": "/assets/imgs/works/studigrid-1.png",
+    "title": "Studigrid",
+    "tag": "Vue3 Website",
+    "link": "/single-project-studigrid"
+  },
+  {
+    "photo": "/assets/imgs/works/1.jpg",
+    "title": "Diabetes Awareness",
+    "tag": "Web Design",
+    "link": "/single-project-diabetes"
+  },
+  {
+    "photo": "/assets/imgs/works/3.jpg",
+    "title": "Vue Ecommerce",
+    "tag": "Vue App",
+    "link": "/single-project"
+  }
+]
