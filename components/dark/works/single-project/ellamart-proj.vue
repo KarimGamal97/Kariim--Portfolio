@@ -4,7 +4,7 @@
       <div class="col-lg-11">
         <div class="img mb-80">
           <img
-            src="/assets/imgs/works/diabetes/diabetes-01.png"
+            src="/assets/imgs/works/ellamart/ellamart-01.jpg"
             alt=""
             class="radius-5"
           />
@@ -12,24 +12,25 @@
         <div class="row justify-content-center">
           <div class="col-lg-7">
             <div class="cont md-mb50">
-              <h3 class="mb-15 fw-500">Awareness of Diabetes</h3>
+              <h3 class="mb-15 fw-500">Ella Ecommerce</h3>
               <p>
-                This website has been designed for the Ministry of Health in
-                Kuwait . This website was created to educate citizens and
-                children in the state of Kuwait about diabetes and how to avoid
-                its risks .
+                Ella is an All-in-one Ecommerce Vue3 Template with multiple
+                layouts and styles allows you to create different structures and
+                satisfies any specific requirements for different kinds of
+                business.
               </p>
               <p class="mt-15">
-                This website is designed with the latest technologies in the
-                field of web software development and also to be suitable for
-                all ages and age groups .
+                Ella comes with multiple powerful layouts with a great
+                combination of Minimalism, Modernism or even the neutralism
+                design and a number of powerful features.
               </p>
               <div class="mt-15">
                 <p>
-                  This site has been admired by many from the state of Kuwait
-                  and as many young and elderly people as possible have been
-                  made aware of this disease and how to treat it if it is
-                  infected .
+                  Experience seamless shopping on our ecommerce platform with a
+                  fully responsive design, quick shop multitasking function,
+                  mobile sticky toolbar, side cart, and horizontal filter,
+                  ensuring convenience and efficiency at every step of your
+                  browsing journey.
                 </p>
                 <ul class="rest list-arrow mt-50">
                   <li>
@@ -49,7 +50,7 @@
                         ></path>
                       </svg>
                     </span>
-                    <h6 class="inline fz-18">Modern and Clean Design .</h6>
+                    <h6 class="inline fz-18">Stunning Design</h6>
                   </li>
                   <li class="mt-20">
                     <span class="icon">
@@ -68,9 +69,7 @@
                         ></path>
                       </svg>
                     </span>
-                    <h6 class="inline fz-18">
-                      Based on Bootstrap Latest Version .
-                    </h6>
+                    <h6 class="inline fz-18">Great Performance</h6>
                   </li>
                   <li class="mt-20">
                     <span class="icon">
@@ -89,7 +88,7 @@
                         ></path>
                       </svg>
                     </span>
-                    <h6 class="inline fz-18">100% Responsive .</h6>
+                    <h6 class="inline fz-18">Incredible UI/UX</h6>
                   </li>
                   <li class="mt-20">
                     <span class="icon">
@@ -108,7 +107,7 @@
                         ></path>
                       </svg>
                     </span>
-                    <h6 class="inline fz-18">All files are well commented .</h6>
+                    <h6 class="inline fz-18">Friendly Interface</h6>
                   </li>
                 </ul>
               </div>
@@ -121,27 +120,25 @@
                   <span class="sub-title">
                     <i class="far fa-calendar-alt mr-10"></i> Date :
                   </span>
-                  <p>9, Jan 2022</p>
+                  <p>9, Dec 2023</p>
                 </li>
                 <li class="mb-30">
                   <span class="sub-title">
                     <i class="fas fa-list-ul mr-10"></i> Categories :
                   </span>
-                  <p>Web Design</p>
+                  <p>Vue3 Ecommerce</p>
                 </li>
                 <li class="mb-30">
                   <span class="sub-title">
                     <i class="far fa-user mr-10"></i> Client :
                   </span>
-                  <p>Upwork Customer</p>
+                  <p>Agency</p>
                 </li>
                 <li>
                   <span class="sub-title">
                     <i class="fas fa-globe mr-10"></i> Website :
                   </span>
-                  <a href="https://karimgamal97.github.io/Diabetse/">
-                    https://karimgamal97.github.io/Diabetse/</a
-                  >
+                  <a href="#">Coming Soon</a>
                 </li>
               </ul>
             </div>
@@ -155,12 +152,12 @@
           <div class="row md-marg">
             <div class="col-md-6">
               <div class="img sm-mb30">
-                <img src="/assets/imgs/works/diabetes/diabetes-02.png" alt="" />
+                <img src="/assets/imgs/works/ellamart/ellamart-02.jpg" alt="" />
               </div>
             </div>
             <div class="col-md-6">
               <div class="img">
-                <img src="/assets/imgs/works/diabetes/diabetes-03.png" alt="" />
+                <img src="/assets/imgs/works/ellamart/ellamart-03.jpg" alt="" />
               </div>
             </div>
           </div>

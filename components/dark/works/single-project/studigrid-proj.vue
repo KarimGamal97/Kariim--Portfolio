@@ -4,7 +4,7 @@
       <div class="col-lg-11">
         <div class="img mb-80">
           <img
-            src="/assets/imgs/works/studigrid--1.png"
+            src="/assets/imgs/works/studigrid/studigrid--1.png"
             alt=""
             class="radius-5"
           />
@@ -150,12 +150,18 @@
           <div class="row md-marg">
             <div class="col-md-6">
               <div class="img sm-mb30">
-                <img src="/assets/imgs/works/studigrid-2.png" alt="" />
+                <img
+                  src="/assets/imgs/works/studigrid/studigrid-2.png"
+                  alt=""
+                />
               </div>
             </div>
             <div class="col-md-6">
               <div class="img">
-                <img src="/assets/imgs/works/studigrid-3.png" alt="" />
+                <img
+                  src="/assets/imgs/works/studigrid/studigrid-3.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>

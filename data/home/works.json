@@ -1,6 +1,6 @@
 [
   {
-    "photo": "/assets/imgs/works/studigrid-1.png",
+    "photo": "/assets/imgs/works/studigrid/studigrid-1.png",
     "title": "Studigrid",
     "tag": "Vue3 Website",
     "link": "/single-project-studigrid"
@@ -12,16 +12,16 @@
     "link": "/single-project-meta"
   },
   {
-    "photo": "/assets/imgs/works/1.jpg",
+    "photo": "/assets/imgs/diabetes/diabetes-01.png",
     "title": "Diabetes Awareness",
     "tag": "Web Design",
     "link": "/single-project-diabetes"
   },
   {
-    "photo": "/assets/imgs/works/3.jpg",
-    "title": "Vue Ecommerce",
-    "tag": "Vue App",
-    "link": "/single-project"
+    "photo": "/assets/imgs/works/ellamart/ellamart--1.png",
+    "title": "Ellamart",
+    "tag": "Vue3 Ecommerce",
+    "link": "/single-project-ellamart"
   },
   {
     "photo": "/assets/imgs/works/2.jpg",
