@@ -138,7 +138,9 @@
                   <span class="sub-title">
                     <i class="fas fa-globe mr-10"></i> Website :
                   </span>
-                  <a href="#">Coming Soon</a>
+                  <a href="https://ellamart.vercel.app/"
+                    >https://ellamart.vercel.app/</a
+                  >
                 </li>
               </ul>
             </div>
