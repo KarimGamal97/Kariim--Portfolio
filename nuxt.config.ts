@@ -29,15 +29,16 @@ export default defineNuxtConfig({
         },
         {
           name: "keywords",
-          content: "Vue Nuxtjs Template Gavi Multi-Purpose themeforest",
+          content:
+            "Kariim Personal Portfolio , vue.js frontend developer , nuxt developer , html5 , css3 , javascript",
         },
         {
           name: "description",
-          content: "Gavi - Multi-Purpose Vue Nuxtjs Template",
+          content: "Kariim Personal Portfolio",
         },
         {
           name: "author",
-          content: "themescamp",
+          content: "Kariim",
         },
       ],
 
