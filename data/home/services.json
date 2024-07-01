@@ -12,7 +12,7 @@
   {
     "icon": "/assets/imgs/serv-img/web-app.png",
     "title": "WEB APPLICATION DEVELOPMENT",
-    "description": "Building interactive web applications using frontend frameworks like Vue.js and Nuxt."
+    "description": "Building interactive web applications using  Vue.js and Nuxt."
   },
   {
     "icon": "/assets/imgs/serv-img/responsive.png",
@@ -27,6 +27,6 @@
   {
     "icon": "/assets/imgs/serv-img/collaboration.png",
     "title": "COLLABORATION",
-    "description": "Working closely with backend developers, designers, and other stakeholders to deliver high-quality frontend solutions."
+    "description": "Working closely with backend developers, designers, and  stakeholders to deliver high-quality solutions."
   }
 ]

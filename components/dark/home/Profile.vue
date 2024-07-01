@@ -44,7 +44,7 @@
           <div class="d-flex align-items-center">
             <div class="mr-40">
               <div class="d-flex align-items-center">
-                <h2>+3</h2>
+                <h2>+4</h2>
                 <p>
                   Years <br />
                   of Experience
@@ -63,10 +63,10 @@
             <div>
               <div class="butn-presv">
                 <a
-                  href="https://drive.google.com/file/d/1cTClHK-mbwPmifj_62r17uqnrYznBZ65/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1b1bZZqogUMKDoXOTNAILXYvsri1CfQ-1/view?usp=drive_link"
                   class="butn butn-md butn-bord radius-5"
                 >
-                  <span>Dwonload C.V</span>
+                  <span>Download CV</span>
                 </a>
               </div>
             </div>

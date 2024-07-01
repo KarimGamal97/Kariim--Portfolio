@@ -23,7 +23,6 @@
               <span>Portfolio</span>
             </a>
           </li>
-
           <li class="nav-item">
             <a href="#0" data-scroll-nav="5">
               <span>Contact</span>
