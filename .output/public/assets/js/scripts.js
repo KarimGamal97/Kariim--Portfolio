@@ -27,7 +27,8 @@ $(function () {
     --------------------------------  Navbar Menu   --------------------------------
     ============================================================================= */
 
-  $(".nav-butn").on("click", function () {
+  // $(".nav-butn").on("click", function () {
+  $(".nav-top").on("click", ".nav-butn", function () {
     $(".navbar").slideToggle().addClass("active");
   });
 
