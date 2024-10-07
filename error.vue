@@ -7,7 +7,7 @@
             class="col-sm-12 col-sm-offset-1 text-center d-flex justify-center"
           >
             <div class="bg-img">
-              <img src="./public/assets/imgs/404-Not-Found.png" alt="" />
+              <img src="/assets/imgs/404-Not-Found.png" alt="" />
             </div>
             <div class="content">
               <h3 class="h2">Page not found!</h3>
