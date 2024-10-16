@@ -1993,7 +1993,7 @@ body.loaded {
   height: 45px;
   line-height: 45px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   margin: 0 2px;
@@ -2001,10 +2001,9 @@ body.loaded {
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .intro-profile .box-img .social a:hover {
-  background: #fff;
-  color: #1d1d1d;
+  border-bottom: 1px solid #c8f31d;
+  box-shadow: 10px 10px 10px #c8f31d;
 }
 
 .intro-profile .content {

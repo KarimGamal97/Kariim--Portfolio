@@ -21,14 +21,28 @@
               <p class="fz-13 text-u">Available For Freelance</p>
             </div>
             <div class="social text-center mt-20">
-              <a href="https://github.com/KarimGamal97">
+              <!-- <a href="https://github.com/KarimGamal97">
                 <i class="fab fa-github"></i>
               </a>
               <a href="https://www.linkedin.com/in/karim-gamal-415b45126/">
                 <i class="fab fa-linkedin-in"></i>
-              </a>
+              </a> -->
               <a href="https://wa.me/+201094123678">
                 <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://www.upwork.com/freelancers/~0135c4f6a4f1fb875c">
+                <img
+                  src="../../../public/assets/imgs/header/upwork.svg"
+                  style="width: 18px"
+                  alt=""
+                />
+              </a>
+              <a href="https://www.codewars.com/users/KarimGamal97">
+                <img
+                  src="../../../public/assets/imgs/header/codewars.svg"
+                  style="width: 18px"
+                  alt=""
+                />
               </a>
             </div>
           </div>
