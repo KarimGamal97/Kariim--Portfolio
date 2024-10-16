@@ -5,7 +5,7 @@
         <div class="col-12">
           <div class="text-center">
             <p class="fz-13">
-              © 2023 Kariim is Proudly Powered by
+              © {{ new Date().getFullYear() }} Kariim is Proudly Powered by
               <span class="underline main-color">
                 <a href="#" target="_blank"> Kariim </a>
               </span>
