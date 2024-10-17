@@ -42,9 +42,8 @@
       </div>
       <div class="col-lg-7 valign">
         <div class="full-width wow fadeIn">
-          <form id="contact-form" method="post" action="contact.php">
+          <form id="contact-form" @submit.prevent="submitForm">
             <div class="messages"></div>
-
             <div class="controls row">
               <div class="col-lg-6">
                 <div class="form-group mb-30">
@@ -53,10 +52,10 @@
                     type="text"
                     name="name"
                     placeholder="Name"
+                    v-model="form.name"
                   />
                 </div>
               </div>
-
               <div class="col-lg-6">
                 <div class="form-group mb-30">
                   <input
@@ -64,10 +63,10 @@
                     type="email"
                     name="email"
                     placeholder="Email"
+                    v-model="form.email"
                   />
                 </div>
               </div>
-
               <div class="col-12">
                 <div class="form-group mb-30">
                   <input
@@ -75,10 +74,10 @@
                     type="text"
                     name="subject"
                     placeholder="Subject"
+                    v-model="form.subject"
                   />
                 </div>
               </div>
-
               <div class="col-12">
                 <div class="form-group">
                   <textarea
@@ -87,8 +86,11 @@
                     placeholder="Message"
                     rows="4"
                     style="resize: none"
+                    v-model="form.message"
                   ></textarea>
                 </div>
+              </div>
+              <div class="col-12">
                 <div class="mt-30">
                   <button type="submit">
                     <span class="text">Send A Message</span>
@@ -102,3 +104,27 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import emailjs from "emailjs-com";
+import { ref } from "vue";
+const form = ref({
+  name: "",
+  email: "",
+  subject: "",
+  message: "",
+});
+
+const submitForm = () => {
+  console.log(form.value);
+  emailjs
+    .send("service_wf44yg6", "template_pc3nm35", form.value)
+    .then((res) => {
+      console.log("SUCCESS!", res.status, res.text);
+    })
+    .catch((e) => {
+      console.log(e);
+    });
+  console.log(form.value, "2");
+};
+</script>

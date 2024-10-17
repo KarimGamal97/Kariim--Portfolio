@@ -27,17 +27,44 @@
               <a href="https://www.linkedin.com/in/karim-gamal-415b45126/">
                 <i class="fab fa-linkedin-in"></i>
               </a> -->
-              <a href="https://wa.me/+201094123678">
+              <a
+                href="https://wa.me/+201094123678"
+                v-tippy="{
+                  content: 'whatsapp',
+                  arrow: true,
+                  interactive: true,
+                  placement: 'bottom',
+                  theme: 'light',
+                }"
+              >
                 <i class="fab fa-whatsapp"></i>
               </a>
-              <a href="https://www.upwork.com/freelancers/~0135c4f6a4f1fb875c">
+              <a
+                href="https://www.upwork.com/freelancers/~0135c4f6a4f1fb875c"
+                v-tippy="{
+                  content: 'upwork',
+                  arrow: true,
+                  interactive: true,
+                  placement: 'bottom',
+                  theme: 'light',
+                }"
+              >
                 <img
                   src="../../../public/assets/imgs/header/upwork.svg"
                   style="width: 18px"
                   alt=""
                 />
               </a>
-              <a href="https://www.codewars.com/users/KarimGamal97">
+              <a
+                href="https://www.codewars.com/users/KarimGamal97"
+                v-tippy="{
+                  content: 'codewars',
+                  arrow: true,
+                  interactive: true,
+                  placement: 'bottom',
+                  theme: 'light',
+                }"
+              >
                 <img
                   src="../../../public/assets/imgs/header/codewars.svg"
                   style="width: 18px"
@@ -90,3 +117,20 @@
     </div>
   </section>
 </template>
+
+<script>
+import { directive } from "vue-tippy";
+// import VueTippy from "vue-tippy";
+import "tippy.js/dist/tippy.css";
+
+export default {
+  directives: {
+    tippy: directive,
+  },
+};
+</script>
+<style>
+.tippy-box[data-theme~="light"] {
+  color: #c8f31d;
+}
+</style>

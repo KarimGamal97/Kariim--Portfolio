@@ -5,10 +5,11 @@
         <div class="col-12">
           <div class="text-center">
             <p class="fz-13">
-              © {{ new Date().getFullYear() }} Kariim is Proudly Powered by
+              Proudly Powered by
               <span class="underline main-color">
                 <a href="#" target="_blank"> Kariim </a>
               </span>
+              © {{ new Date().getFullYear() }}
             </p>
           </div>
         </div>

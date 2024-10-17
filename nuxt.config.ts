@@ -2,13 +2,17 @@ import { fileURLToPath } from "node:url";
 
 export default defineNuxtConfig({
   ssr: false,
+
   typescript: {
     shim: false,
   },
+
   nitro: {},
+
   alias: {
     "@": fileURLToPath(new URL("./", import.meta.url)),
   },
+
   app: {
     head: {
       title: "Kariim",
@@ -51,7 +55,9 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   css: ["@/styles/globals.css"],
+
   webpack: {
     extractCSS: true,
     optimization: {
@@ -60,4 +66,6 @@ export default defineNuxtConfig({
       },
     },
   },
+  plugins: ["~/plugin/email.js"],
+  modules: [],
 });
