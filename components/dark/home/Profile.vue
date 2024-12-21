@@ -104,7 +104,7 @@
             <div>
               <div class="butn-presv">
                 <a
-                  href="https://drive.google.com/file/d/1c4wM6Us8qmStc0uWgqGVVooublBMYf-o/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1P20ZkzLL3DRxW8_rCqZvGWuiN7diAWLf/view"
                   class="butn butn-md butn-bord radius-5"
                 >
                   <span>Download CV</span>

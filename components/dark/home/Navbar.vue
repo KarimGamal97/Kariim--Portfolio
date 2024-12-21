@@ -24,7 +24,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#0" data-scroll-nav="5">
+            <a href="#0" data-scroll-nav="4">
               <span>Contact</span>
             </a>
           </li>
