@@ -50,7 +50,7 @@
                 }"
               >
                 <img
-                  src="../../../public/assets/imgs/header/upwork.svg"
+                  src="/assets/imgs/header/upwork.svg"
                   style="width: 18px"
                   alt=""
                 />
@@ -66,7 +66,7 @@
                 }"
               >
                 <img
-                  src="../../../public/assets/imgs/header/codewars.svg"
+                  src="/assets/imgs/header/codewars.svg"
                   style="width: 18px"
                   alt=""
                 />
@@ -131,6 +131,6 @@ export default {
 </script>
 <style>
 .tippy-box[data-theme~="light"] {
-  color: #c8f31d;
+  color: #fff;
 }
 </style>

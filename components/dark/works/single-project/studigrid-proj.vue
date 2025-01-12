@@ -103,7 +103,7 @@
                         ></path>
                       </svg>
                     </span>
-                    <h6 class="inline fz-18">Supports two languages En, Ar</h6>
+                    <h6 class="inline fz-18">Supports both languages En, Ar</h6>
                   </li>
                 </ul>
               </div>
@@ -134,9 +134,7 @@
                   <span class="sub-title">
                     <i class="fas fa-globe mr-10"></i> Website :
                   </span>
-                  <a href="https://studygate-app.vercel.app/"
-                    >https://studygate-app.vercel.app/</a
-                  >
+                  <a href="https://studigrid.com/">https://studigrid.com/</a>
                 </li>
               </ul>
             </div>

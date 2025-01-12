@@ -56,7 +56,7 @@
           </div>
         </div>
       </div>
-      <div class="nav-butn" style="background-color: red">
+      <div class="nav-butn">
         <span class="pe-7s-menu"></span>
       </div>
     </div>
