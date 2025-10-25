@@ -6,7 +6,7 @@
     "link": "/single-project-studigrid"
   },
   {
-    "photo": "/assets/imgs/works/2.jpg",
+    "photo": "/assets/imgs/works/meta-04.png",
     "title": "MetaShops",
     "tag": "Single Page App",
     "link": "/single-project-meta"
@@ -24,15 +24,9 @@
     "link": "/single-project-ellamart"
   },
   {
-    "photo": "/assets/imgs/works/2.jpg",
-    "title": "Special Design",
-    "tag": "Web Design",
-    "link": "/single-project"
-  },
-  {
-    "photo": "/assets/imgs/works/3.jpg",
+    "photo": "/assets/imgs/works/mwm/mwm--1.jpg",
     "title": "MWM Hospital",
     "tag": "Web Design",
-    "link": "/single-project"
+    "link": "/single-project-mwm"
   }
 ]
