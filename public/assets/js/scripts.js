@@ -209,8 +209,10 @@ $(function () {
   };
   const editCursor = (e) => {
     const { clientX: x, clientY: y } = e;
-    cursor.style.left = x + "px";
-    cursor.style.top = y + "px";
+    if (cursor) {
+      cursor.style.left = x + "px";
+      cursor.style.top = y + "px";
+    }
   };
   link.forEach((b) => b.addEventListener("mousemove", animateit));
   link.forEach((b) => b.addEventListener("mouseleave", animateit));
@@ -329,18 +331,23 @@ $(document).ready(function () {
   "use strict";
 
   var progressPath = document.querySelector(".progress-wrap path");
-  var pathLength = progressPath.getTotalLength();
-  progressPath.style.transition = progressPath.style.WebkitTransition = "none";
-  progressPath.style.strokeDasharray = pathLength + " " + pathLength;
-  progressPath.style.strokeDashoffset = pathLength;
-  progressPath.getBoundingClientRect();
-  progressPath.style.transition = progressPath.style.WebkitTransition =
-    "stroke-dashoffset 10ms linear";
+  if (progressPath) {
+    var pathLength = progressPath.getTotalLength();
+    progressPath.style.transition = progressPath.style.WebkitTransition =
+      "none";
+    progressPath.style.strokeDasharray = pathLength + " " + pathLength;
+    progressPath.style.strokeDashoffset = pathLength;
+    progressPath.getBoundingClientRect();
+    progressPath.style.transition = progressPath.style.WebkitTransition =
+      "stroke-dashoffset 10ms linear";
+  }
   var updateProgress = function () {
-    var scroll = $(window).scrollTop();
-    var height = $(document).height() - $(window).height();
-    var progress = pathLength - (scroll * pathLength) / height;
-    progressPath.style.strokeDashoffset = progress;
+    if (progressPath) {
+      var scroll = $(window).scrollTop();
+      var height = $(document).height() - $(window).height();
+      var progress = pathLength - (scroll * pathLength) / height;
+      progressPath.style.strokeDashoffset = progress;
+    }
   };
   updateProgress();
   $(window).scroll(updateProgress);

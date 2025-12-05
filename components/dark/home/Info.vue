@@ -4,7 +4,7 @@
     data-scroll-index="5"
   >
     <div class="row">
-      <div class="col-lg-5">
+      <div class="col-lg-12">
         <div class="sec-head md-mb80 wow fadeIn">
           <h6 class="sub-title mb-15 opacity-7">Get In Touch</h6>
           <h2 class="fz-50">
@@ -40,7 +40,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-7 valign">
+      <!-- <div class="col-lg-7 valign">
         <div class="full-width wow fadeIn">
           <form id="contact-form" @submit.prevent="submitForm">
             <div class="messages"></div>
@@ -100,7 +100,7 @@
             </div>
           </form>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

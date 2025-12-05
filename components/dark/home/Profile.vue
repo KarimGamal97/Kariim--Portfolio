@@ -21,12 +21,6 @@
               <p class="fz-13 text-u">Available For Freelance</p>
             </div>
             <div class="social text-center mt-20">
-              <!-- <a href="https://github.com/KarimGamal97">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/karim-gamal-415b45126/">
-                <i class="fab fa-linkedin-in"></i>
-              </a> -->
               <a
                 href="https://wa.me/+201094123678"
                 v-tippy="{
@@ -40,36 +34,15 @@
                 <i class="fab fa-whatsapp"></i>
               </a>
               <a
-                href="https://www.upwork.com/freelancers/~0135c4f6a4f1fb875c"
+                href="https://www.linkedin.com/in/karim-gamal-415b45126/"
                 v-tippy="{
-                  content: 'upwork',
+                  content: 'linkedin',
                   arrow: true,
                   interactive: true,
-                  placement: 'bottom',
                   theme: 'light',
                 }"
               >
-                <img
-                  src="/assets/imgs/header/upwork.svg"
-                  style="width: 18px"
-                  alt=""
-                />
-              </a>
-              <a
-                href="https://www.codewars.com/users/KarimGamal97"
-                v-tippy="{
-                  content: 'codewars',
-                  arrow: true,
-                  interactive: true,
-                  placement: 'bottom',
-                  theme: 'light',
-                }"
-              >
-                <img
-                  src="/assets/imgs/header/codewars.svg"
-                  style="width: 18px"
-                  alt=""
-                />
+                <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
           </div>

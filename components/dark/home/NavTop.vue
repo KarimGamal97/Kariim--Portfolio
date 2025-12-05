@@ -21,26 +21,36 @@
               <i class="fab fa-github"></i>
             </a>
             <a
-              href="https://www.linkedin.com/in/karim-gamal-415b45126/"
+              href="https://www.upwork.com/freelancers/~0135c4f6a4f1fb875c"
               v-tippy="{
-                content: 'linkedin',
+                content: 'upwork',
                 arrow: true,
                 interactive: true,
+                placement: 'bottom',
                 theme: 'light',
               }"
             >
-              <i class="fab fa-linkedin-in"></i>
+              <img
+                src="/assets/imgs/header/upwork.svg"
+                style="width: 18px"
+                alt=""
+              />
             </a>
             <a
-              href="https://wa.me/+201094123678"
+              href="https://www.codewars.com/users/KarimGamal97"
               v-tippy="{
-                content: 'whatsapp',
+                content: 'codewars',
                 arrow: true,
                 interactive: true,
+                placement: 'bottom',
                 theme: 'light',
               }"
             >
-              <i class="fab fa-whatsapp"></i>
+              <img
+                src="/assets/imgs/header/codewars.svg"
+                style="width: 18px"
+                alt=""
+              />
             </a>
           </div>
         </div>
@@ -65,12 +75,41 @@
 
 <script>
 import { directive } from "vue-tippy";
-// import VueTippy from "vue-tippy";
+import { onMounted } from "vue";
 import "tippy.js/dist/tippy.css";
 
 export default {
   directives: {
     tippy: directive,
+  },
+  mounted() {
+    console.log("NavTop component mounted");
+    console.log("jQuery available:", typeof $ !== "undefined");
+
+    if (typeof $ !== "undefined") {
+      // Handle menu button click
+      const navButn = document.querySelector(".nav-butn");
+      console.log("navButn element found:", navButn);
+
+      if (navButn) {
+        navButn.addEventListener("click", function () {
+          console.log("Menu button clicked!");
+          const navbar = $(".navbar");
+          console.log("Navbar element:", navbar);
+          console.log("Navbar has 'active' class:", navbar.hasClass("active"));
+          navbar.slideToggle().toggleClass("active");
+        });
+      }
+
+      // Close menu when clicking on a nav item
+      $(".navbar .nav-item").on("click", function () {
+        console.log("Nav item clicked");
+        if ($(".navbar").hasClass("active")) {
+          console.log("Closing menu");
+          $(".navbar").slideUp().removeClass("active");
+        }
+      });
+    }
   },
 };
 </script>

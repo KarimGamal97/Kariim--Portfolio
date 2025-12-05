@@ -4378,3 +4378,8 @@ img.left {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+@media (max-width: 991px) {
+  .nav-top .navbar {
+    display: none;
+  }
+}
