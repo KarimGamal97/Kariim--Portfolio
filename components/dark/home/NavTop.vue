@@ -17,24 +17,9 @@
                 interactive: true,
                 theme: 'light',
               }"
+              target="_blank"
             >
               <i class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://www.upwork.com/freelancers/~0135c4f6a4f1fb875c"
-              v-tippy="{
-                content: 'upwork',
-                arrow: true,
-                interactive: true,
-                placement: 'bottom',
-                theme: 'light',
-              }"
-            >
-              <img
-                src="/assets/imgs/header/upwork.svg"
-                style="width: 18px"
-                alt=""
-              />
             </a>
             <a
               href="https://www.codewars.com/users/KarimGamal97"
@@ -45,6 +30,7 @@
                 placement: 'bottom',
                 theme: 'light',
               }"
+              target="_blank"
             >
               <img
                 src="/assets/imgs/header/codewars.svg"

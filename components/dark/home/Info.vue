@@ -8,11 +8,11 @@
         <div class="sec-head md-mb80 wow fadeIn">
           <h6 class="sub-title mb-15 opacity-7">Get In Touch</h6>
           <h2 class="fz-50">
-            Let's make your brand <span class="main-color">brilliant </span>!
+           Let’s create <span class="main-color">solutions </span> that drive real results 
           </h2>
           <p class="fz-15 mt-10">
-            If you would like to work with us or just want to get in touch,
-            Reach out, we're here to listen and assist!
+            If you would like to work with Me or just want to get in touch,
+            Reach out, I am here to listen and assist!
           </p>
           <div class="phone fz-30 fw-600 mt-30 underline">
             <a href="https://wa.me/+201094123678"> +(20)10 9412 3678 </a>

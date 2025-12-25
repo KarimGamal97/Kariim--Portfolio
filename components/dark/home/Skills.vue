@@ -6,10 +6,10 @@
     <div class="row">
       <div class="col-lg-4 valign">
         <div class="sec-head md-mb80 wow fadeIn">
-          <h6 class="sub-title opacity-7 mb-15">Our Skills</h6>
+          <h6 class="sub-title opacity-7 mb-15">My Skills</h6>
           <h3>
-            <span>Spotlight </span> on
-            <span class="main-color">Success </span> Route
+            <span>Skills </span>
+            That Drive <span class="main-color"> Results</span>
           </h3>
         </div>
       </div>

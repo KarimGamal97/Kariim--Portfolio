@@ -30,7 +30,7 @@
 
                     <div>
                       <div class="cont mb-30">
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center mt-2">
                           <div class="rate-stars fz-12">
                             <span class="rate main-color">
                               <i class="fas fa-star"></i>
@@ -78,7 +78,7 @@
                     </div>
                     <div>
                       <div class="cont mb-30">
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center mt-2">
                           <div class="rate-stars fz-12">
                             <span class="rate main-color">
                               <i class="fas fa-star"></i>
@@ -127,7 +127,7 @@
                     </div>
                     <div>
                       <div class="cont mb-30">
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center mt-2">
                           <div class="rate-stars fz-12">
                             <span class="rate main-color">
                               <i class="fas fa-star"></i>

@@ -1,7 +1,7 @@
 <template>
   <div class="sec-box portfolio main-bg section-padding radius-15">
     <div class="sec-head mb-30 text-center">
-      <h6 class="sub-title opacity-7 mb-15">Our Portfolio</h6>
+      <h6 class="sub-title opacity-7 mb-15">My Portfolio</h6>
       <h3>
         Dive into my portfolio & <br />
         give me your

@@ -30,6 +30,7 @@
                   placement: 'bottom',
                   theme: 'light',
                 }"
+                target="_blank"
               >
                 <i class="fab fa-whatsapp"></i>
               </a>
@@ -41,8 +42,26 @@
                   interactive: true,
                   theme: 'light',
                 }"
+                target="_blank"
               >
                 <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+              href="https://www.upwork.com/freelancers/~0135c4f6a4f1fb875c"
+              v-tippy="{
+                content: 'upwork',
+                arrow: true,
+                interactive: true,
+                placement: 'bottom',
+                theme: 'light',
+              }"
+              target="_blank"
+            >
+              <img
+                src="/assets/imgs/header/upwork.svg"
+                style="width: 18px"
+                alt=""
+              />
               </a>
             </div>
           </div>
@@ -50,9 +69,9 @@
       </div>
       <div class="col-lg-8 content main-bg">
         <h1>
-          Hello, I’m <span class="main-color">Karim Gamal</span>,
-          <span class="bord"> Front-end Developer <i></i> </span> Based in
-          Egypt.
+          Hi! I'm <span class="main-color">Karim Gamal</span>,
+          <span class="bord">Front-end Developer <i></i></span> 
+          Expert in High-Performance Web Solutions.
         </h1>
         <div class="stauts mt-80">
           <div class="d-flex align-items-center">
@@ -79,8 +98,9 @@
                 <a
                   href="https://drive.google.com/file/d/1hh56nnn29z4sXAX6D9ecXTx9MS_9V21U/view?usp=sharing"
                   class="butn butn-md butn-bord radius-5"
+                  target="_blank"
                 >
-                  <span>Download CV</span>
+                  <span>Preview Resume</span>
                 </a>
               </div>
             </div>
