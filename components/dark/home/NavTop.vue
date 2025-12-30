@@ -104,4 +104,17 @@ export default {
 .tippy-box[data-theme~="light"] {
   color: #c8f31d;
 }
+.nav-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #000;
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+body {
+  padding-top: 100px;
+}
 </style>
