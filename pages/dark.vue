@@ -4,7 +4,7 @@
     <CommonLoader />
     <ContactUs />
     <CommonProgressScroll />
-    <CommonCursor />
+    <!-- <CommonCursor /> -->
     <NavTop />
     <main class="container">
       <Profile />
