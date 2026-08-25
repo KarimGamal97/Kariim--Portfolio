@@ -28,5 +28,11 @@
     "title": "MWM Hospital",
     "tag": "Web Design",
     "link": "/single-project-mwm"
+  },
+  {
+    "photo": "/assets/imgs/works/elaraby/elaraby-hospital-cover.webp",
+    "title": "El-Araby Hospital",
+    "tag": "Hospital Website",
+    "link": "/single-project-elaraby"
   }
 ]

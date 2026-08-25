@@ -77,7 +77,7 @@
           <div class="d-flex align-items-center">
             <div class="mr-40">
               <div class="d-flex align-items-center">
-                <h2>+4</h2>
+                <h2>+5</h2>
                 <p>
                   Years <br />
                   of Experience
@@ -86,7 +86,7 @@
             </div>
             <div class="mr-40">
               <div class="d-flex align-items-center">
-                <h2>+25</h2>
+                <h2>+30</h2>
                 <p>
                   Clients <br />
                   Worldwide
