@@ -134,7 +134,7 @@
                   <span class="sub-title">
                     <i class="fas fa-globe mr-10"></i> Website :
                   </span>
-                  <a href="https://studigrid.com/">https://studigrid.com/</a>
+                  <a href="https://studygate-app.vercel.app/">https://studygate-app.vercel.app/</a>
                 </li>
               </ul>
             </div>

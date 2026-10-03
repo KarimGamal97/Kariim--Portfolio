@@ -11,12 +11,22 @@
   },
   {
     "photo": "/assets/imgs/resume/vue.svg",
-    "title": "Frameworks",
+    "title": "Vue & Nuxt",
     "persent": "95%"
+  },
+  {
+    "photo": "/assets/imgs/header/nodejs-icon.svg",
+    "title": "Node.js & Express",
+    "persent": "90%"
   },
   {
     "photo": "/assets/imgs/resume/github.png",
     "title": "Version Control Systems",
     "persent": "95%"
+  },
+  {
+    "photo": "/assets/imgs/resume/mongodb-icon.svg",
+    "title": "Databases (MongoDB & Supabase)",
+    "persent": "90%"
   }
 ]

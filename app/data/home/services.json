@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "/assets/imgs/serv-img/ui-ux.png",
+    "title": "UI / UX DESIGN",
+    "description": "Crafting intuitive, visually appealing, and user-friendly interfaces with modern wireframing and prototyping."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/web-dev.png",
+    "title": "FRONTEND DEVELOPMENT",
+    "description": "Building modern, reactive web interfaces using Vue.js, Nuxt 3, TypeScript, and efficient state management."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/collaboration.png",
+    "title": "API & BACKEND DEVELOPMENT",
+    "description": "Building secure, scalable RESTful APIs, authentication systems, and server-side architecture with Node.js and Express."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/web-app.png",
+    "title": "FULL-STACK WEB SOLUTIONS",
+    "description": "Architecting complete web solutions from database to user interface, delivering seamless end-to-end functionality."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/performance.png",
+    "title": "PERFORMANCE & SEO",
+    "description": "Optimizing web applications, code splitting, and Core Web Vitals to achieve high loading speeds and search rankings."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/responsive.png",
+    "title": "RESPONSIVE DESIGN",
+    "description": "Ensuring fluid, adaptive experiences optimized for all device sizes across mobile, tablet, and desktop."
+  }
+]

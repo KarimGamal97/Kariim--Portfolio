@@ -1,0 +1,9 @@
+const removeSlashFromPagination = () => {
+  if (typeof document === 'undefined') return;
+  let swiperPagination = document.querySelector(".swiper-pagination");
+  if (swiperPagination) {
+    swiperPagination.innerHTML = swiperPagination.innerHTML.replace(" / ", "");
+  }
+};
+
+export default removeSlashFromPagination;

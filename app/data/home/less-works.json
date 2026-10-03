@@ -1,0 +1,20 @@
+[
+  {
+    "photo": "/assets/imgs/works/studigrid/studigrid-1.png",
+    "title": "Studigrid",
+    "tag": "Vue3 Website",
+    "link": "/single-project-studigrid"
+  },
+  {
+    "photo": "/assets/imgs/works/elaraby/elaraby-hospital-cover.webp",
+    "title": "El-Araby Hospital",
+    "tag": "Hospital Website",
+    "link": "/single-project-elaraby"
+  },
+  {
+    "photo": "/assets/imgs/works/elaraby/elaraby-germany-01.jpg",
+    "title": "Elaraby Germany",
+    "tag": "Corporate Platform",
+    "link": "/single-project-elarabygermany"
+  }
+]

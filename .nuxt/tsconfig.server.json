@@ -19,16 +19,16 @@
         "../node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
       "~": [
-        "./.."
+        "../app"
       ],
       "~/*": [
-        "../*"
+        "../app/*"
       ],
       "@": [
-        "./.."
+        "../app"
       ],
       "@/*": [
-        "../*"
+        "../app/*"
       ],
       "~~": [
         "./.."
@@ -43,12 +43,12 @@
         "../*"
       ],
       "assets": [
-        "../assets"
+        "../app/assets"
       ],
-      "public": [
+      "../public": [
         "../public"
       ],
-      "public/*": [
+      "../public/*": [
         "../public/*"
       ]
     }
@@ -59,7 +59,7 @@
     "../node_modules/@nuxt/telemetry/runtime/server",
     "./types/nitro.d.ts",
     "../**/*",
-    "../server/**/*"
+    "../app/server/**/*"
   ],
   "exclude": [
     "../node_modules",

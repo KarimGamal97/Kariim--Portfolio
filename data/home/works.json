@@ -6,33 +6,33 @@
     "link": "/single-project-studigrid"
   },
   {
-    "photo": "/assets/imgs/works/meta-04.png",
-    "title": "MetaShops",
-    "tag": "Single Page App",
-    "link": "/single-project-meta"
+    "photo": "/assets/imgs/works/elaraby/elaraby-hospital-cover.webp",
+    "title": "El-Araby Hospital",
+    "tag": "Hospital Website",
+    "link": "/single-project-elaraby"
   },
   {
-    "photo": "assets/imgs/works/diabetes/diabetes--1.png",
+    "photo": "/assets/imgs/works/elaraby/elaraby-germany-01.jpg",
+    "title": "Elaraby Germany",
+    "tag": "Corporate Platform",
+    "link": "/single-project-elarabygermany"
+  },
+  {
+    "photo": "/assets/imgs/works/elaraby/kajito-01.jpg",
+    "title": "Kajito",
+    "tag": "Smart TV Platform",
+    "link": "/single-project-kajito"
+  },
+  {
+    "photo": "/assets/imgs/works/diabetes/diabetes--1.png",
     "title": "Diabetes Awareness",
     "tag": "Web Design",
     "link": "/single-project-diabetes"
-  },
-  {
-    "photo": "/assets/imgs/works/ellamart/ellamart--1.png",
-    "title": "Ellamart",
-    "tag": "Vue3 Ecommerce",
-    "link": "/single-project-ellamart"
   },
   {
     "photo": "/assets/imgs/works/mwm/mwm--1.jpg",
     "title": "MWM Hospital",
     "tag": "Web Design",
     "link": "/single-project-mwm"
-  },
-  {
-    "photo": "/assets/imgs/works/elaraby/elaraby-hospital-cover.webp",
-    "title": "El-Araby Hospital",
-    "tag": "Hospital Website",
-    "link": "/single-project-elaraby"
   }
 ]

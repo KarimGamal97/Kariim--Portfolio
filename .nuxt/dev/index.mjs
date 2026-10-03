@@ -126,7 +126,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"D:/Mine/Kariim--Portfolio/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"D:/Mine/Kariim--Portfolio/app/server/assets"}];
 
 const assets = createStorage();
 
@@ -139,7 +139,7 @@ const storage = createStorage({});
 storage.mount('/assets', assets);
 
 storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:\\Mine\\Kariim--Portfolio","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:\\Mine\\Kariim--Portfolio\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:\\Mine\\Kariim--Portfolio\\app\\server","ignore":["**/node_modules/**","**/.git/**"]}));
 storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:\\Mine\\Kariim--Portfolio\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
 storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:\\Mine\\Kariim--Portfolio\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
 storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"D:\\Mine\\Kariim--Portfolio\\.data\\kv","ignore":["**/node_modules/**","**/.git/**"]}));

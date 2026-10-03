@@ -1,16 +1,53 @@
+// Nuxt 3 Configuration
 import { fileURLToPath } from "node:url";
 
 export default defineNuxtConfig({
+  srcDir: "app",
+
   ssr: false,
 
   typescript: {
     shim: false,
+    strict: true,
   },
 
-  nitro: {},
+  dir: {
+    public: "../public",
+  },
+
+  nitro: {
+    publicAssets: [
+      {
+        dir: fileURLToPath(new URL("./public", import.meta.url)),
+        maxAge: 0,
+      },
+    ],
+  },
 
   alias: {
-    "@": fileURLToPath(new URL("./", import.meta.url)),
+    "@": fileURLToPath(new URL("./app", import.meta.url)),
+    "~": fileURLToPath(new URL("./app", import.meta.url)),
+  },
+
+  components: [
+    {
+      path: "~/components",
+      pathPrefix: false,
+    },
+    {
+      path: "~/features",
+      pathPrefix: false,
+      pattern: "**/*.vue",
+    },
+  ],
+
+  imports: {
+    dirs: [
+      "composables",
+      "composables/**",
+      "features/**/composables",
+      "repositories",
+    ],
   },
 
   app: {
@@ -66,6 +103,6 @@ export default defineNuxtConfig({
       },
     },
   },
-  plugins: ["~/plugin/email.js"],
+  plugins: [],
   modules: [],
 });
