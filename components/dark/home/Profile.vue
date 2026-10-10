@@ -96,7 +96,7 @@
             <div>
               <div class="butn-presv">
                 <a
-                  href="https://drive.google.com/file/d/1fXhJfS01ig9fUlk_VwsVrwhoDS8-VNwD/view"
+                  href="https://drive.google.com/file/d/1fXhJfS01ig9fUlk_VwsVrwhoDS8-VNwD/view?usp=sharing"
                   class="butn butn-md butn-bord radius-5"
                   target="_blank"
                 >
