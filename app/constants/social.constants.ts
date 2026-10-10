@@ -46,5 +46,5 @@ export const CONTACT_INFO = {
   phone: '+(20)10 9412 3678',
   whatsappUrl: 'https://wa.me/+201094123678',
   author: 'Karim Gamal',
-  resumeUrl: 'https://drive.google.com/file/d/1D1B4mfYSqQIX8wuQO9cl9WTQAW8oPitg/view?usp=sharing'
+  resumeUrl: 'https://drive.google.com/file/d/1fXhJfS01ig9fUlk_VwsVrwhoDS8-VNwD/view?usp=sharing'
 } as const
