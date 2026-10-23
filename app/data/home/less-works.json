@@ -1,5 +1,17 @@
 [
   {
+    "photo": "/assets/imgs/works/icaimt/icaimt-01.jpg",
+    "title": "ICAIMT (Conference)",
+    "tag": "Conference Platform",
+    "link": "/single-project-icaimt"
+  },
+  {
+    "photo": "/assets/imgs/works/envicorp/envicorp-01.jpg",
+    "title": "Envi-Comm Corporation",
+    "tag": "Corporate Website",
+    "link": "/single-project-envicorp"
+  },
+  {
     "photo": "/assets/imgs/works/studigrid/studigrid-1.png",
     "title": "Studigrid",
     "tag": "Vue3 Website",

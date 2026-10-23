@@ -11,6 +11,8 @@
       <ProjectKajito v-else-if="project === 'kajito'" />
       <ProjectMwm v-else-if="project === 'mwm'" />
       <ProjectStudigrid v-else-if="project === 'studigrid'" />
+      <ProjectEnvicorp v-else-if="project === 'envicorp'" />
+      <ProjectIcaimt v-else-if="project === 'icaimt'" />
       <slot v-else />
     </main>
     <HomeFooter />
@@ -29,9 +31,11 @@ import ProjectElarabyGermany from '~/features/projects/components/ProjectElaraby
 import ProjectKajito from '~/features/projects/components/ProjectKajito.vue'
 import ProjectMwm from '~/features/projects/components/ProjectMwm.vue'
 import ProjectStudigrid from '~/features/projects/components/ProjectStudigrid.vue'
+import ProjectEnvicorp from '~/features/projects/components/ProjectEnvicorp.vue'
+import ProjectIcaimt from '~/features/projects/components/ProjectIcaimt.vue'
 
 interface Props {
-  project?: 'diabetes' | 'elaraby' | 'elarabygermany' | 'kajito' | 'mwm' | 'studigrid' | 'ellamart' | 'meta'
+  project?: 'diabetes' | 'elaraby' | 'elarabygermany' | 'kajito' | 'mwm' | 'studigrid' | 'ellamart' | 'meta' | 'envicorp' | 'icaimt'
 }
 
 defineProps<Props>()

@@ -6,7 +6,6 @@
     <HomeNavTop />
     <main class="container">
       <HomeProfile />
-      <HomeNavbar />
       <div class="in-box">
         <HomeServices :services="services" />
         <HomeSkills :skills="skills" />
@@ -26,7 +25,6 @@ import AppLoader from '~/components/AppLoader.vue'
 import HomeContactButton from '~/features/home/components/HomeContactButton.vue'
 import HomeNavTop from '~/features/home/components/HomeNavTop.vue'
 import HomeProfile from '~/features/home/components/HomeProfile.vue'
-import HomeNavbar from '~/features/home/components/HomeNavbar.vue'
 import HomeServices from '~/features/home/components/HomeServices.vue'
 import HomeSkills from '~/features/home/components/HomeSkills.vue'
 import HomePortfolio from '~/features/home/components/HomePortfolio.vue'
@@ -44,3 +42,11 @@ useHead({
   ]
 })
 </script>
+
+<style scoped>
+.in-box {
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  margin-top: 30px;
+}
+</style>

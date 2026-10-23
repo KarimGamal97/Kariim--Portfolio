@@ -23,3 +23,16 @@ import { NAVIGATION_LINKS } from '~/constants/navigation.constants'
 
 const links = NAVIGATION_LINKS
 </script>
+
+<style scoped>
+.navbar {
+  position: sticky;
+  top: 85px;
+  z-index: 99;
+  pointer-events: none;
+}
+
+.navbar .navbar-nav {
+  pointer-events: auto;
+}
+</style>
