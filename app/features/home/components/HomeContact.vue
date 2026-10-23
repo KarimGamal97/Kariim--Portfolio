@@ -1,5 +1,6 @@
 <template>
   <div
+    id="contact"
     class="sec-box contact section-padding bord-thin-top"
     data-scroll-index="5"
   >

@@ -1,5 +1,6 @@
 <template>
   <div
+    id="services"
     class="sec-box services section-padding bord-thin-bottom"
     data-scroll-index="1"
   >

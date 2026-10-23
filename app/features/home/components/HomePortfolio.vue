@@ -1,37 +1,14 @@
 <template>
-  <div class="sec-box portfolio section-padding" data-scroll-index="3">
+  <div id="works" class="sec-box portfolio section-padding" data-scroll-index="3">
     <div class="sec-head mb-30">
       <div class="row">
-        <div class="col-lg-6">
-          <h6 class="sub-title opacity-7 mb-15">My Portfolio</h6>
+        <div class="col-12">
+          <h6 class="sub-title opacity-7 mb-15">My Best Creations</h6>
           <h3>
             Dive into projects & <br />
             give your
             <span class="main-color"> feedback</span>
           </h3>
-        </div>
-        <div class="col-lg-6 valign">
-          <div class="go-more full-width d-flex justify-content-end">
-            <NuxtLink to="/works" class="d-flex">
-              <span>
-                View All Works
-                <svg
-                  class="arrow-right"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 34.2 32.3"
-                  xml:space="preserve"
-                  style="stroke-width: 2"
-                >
-                  <line x1="0" y1="16" x2="33" y2="16"></line>
-                  <line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line>
-                  <line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line>
-                </svg>
-              </span>
-            </NuxtLink>
-          </div>
         </div>
       </div>
     </div>
@@ -83,6 +60,22 @@
         </div>
       </div>
     </div>
+    <div class="view-all-wrapper mt-60 text-center">
+      <NuxtLink to="/works" class="view-all-btn">
+        <span>View All Works</span>
+        <svg
+          class="arrow-right"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 34.2 32.3"
+          xml:space="preserve"
+          style="stroke-width: 2"
+        >
+          <line x1="0" y1="16" x2="33" y2="16"></line>
+          <line x1="17.3" y1="0.7" x2="33.2" y2="16.5"></line>
+          <line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line>
+        </svg>
+      </NuxtLink>
+    </div>
   </div>
 </template>
 
@@ -113,5 +106,59 @@ defineProps<Props>()
 .item:hover .project-img-placeholder {
   border-color: rgba(200, 243, 29, 0.5);
   background: rgba(200, 243, 29, 0.05);
+}
+
+/* Bottom View All Works CTA */
+.view-all-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-all-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 36px;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.view-all-btn .arrow-right {
+  width: 22px;
+  height: 22px;
+  stroke: #fff;
+  fill: none;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background: rgba(200, 243, 29, 0.08);
+  border-color: rgba(200, 243, 29, 0.4);
+  color: #c8f31d;
+  box-shadow: 0 0 25px rgba(200, 243, 29, 0.2);
+  transform: translateY(-2px);
+}
+
+.view-all-btn:hover .arrow-right {
+  animation: arrowMove 0.9s infinite ease-in-out;
+  stroke: #c8f31d;
+}
+
+@keyframes arrowMove {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px);
+  }
 }
 </style>

@@ -1,5 +1,6 @@
 <template>
   <div
+    id="skills"
     class="sec-box skills section-padding bord-thin-bottom"
     data-scroll-index="2"
   >

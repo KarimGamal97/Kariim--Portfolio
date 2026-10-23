@@ -8,8 +8,8 @@ export const NAVIGATION_LINKS: NavigationLink[] = [
 ]
 
 export const EXTERNAL_NAV_LINKS: NavigationLink[] = [
-  { title: 'Services', href: '/' },
-  { title: 'Skills', href: '/' },
+  { title: 'Services', href: '/#services' },
+  { title: 'Skills', href: '/#skills' },
   { title: 'Works', href: '/works' },
-  { title: 'Contact', href: '/' }
+  { title: 'Contact', href: '/#contact' }
 ]

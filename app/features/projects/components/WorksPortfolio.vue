@@ -1,12 +1,12 @@
 <template>
   <div class="sec-box portfolio main-bg section-padding radius-15">
     <div class="sec-head mb-30 text-center">
-      <h6 class="sub-title opacity-7 mb-15">My Portfolio</h6>
-      <h3>
-        Dive into my portfolio & <br />
-        give me your
-        <span class="main-color"> feedback</span>
-      </h3>
+          <h6 class="sub-title opacity-7 mb-15">My Best Creations</h6>
+          <h3>
+            Dive into projects & <br />
+            give your
+            <span class="main-color"> feedback</span>
+          </h3>
     </div>
     <div class="gallery">
       <div class="row">
