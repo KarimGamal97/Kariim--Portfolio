@@ -109,7 +109,7 @@
       <div class="col-lg-8 content main-bg">
         <h1>
           Hi! I'm <span class="main-color">Karim Gamal</span>,
-          <span class="bord">Software Engineer (Frontend Specialist) <i></i>Expert in High-Performance Web Solutions.</span> 
+          <span class="bord">Front-End & Software Developer <i></i>Expert in High-Performance Web Solutions.</span> 
           
         </h1>
         <div class="stauts mt-80">

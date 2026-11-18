@@ -13,6 +13,7 @@
       <ProjectStudigrid v-else-if="project === 'studigrid'" />
       <ProjectEnvicorp v-else-if="project === 'envicorp'" />
       <ProjectIcaimt v-else-if="project === 'icaimt'" />
+      <ProjectTopqdrat v-else-if="project === 'topqdrat'" />
       <slot v-else />
     </main>
     <HomeFooter />
@@ -33,9 +34,10 @@ import ProjectMwm from '~/features/projects/components/ProjectMwm.vue'
 import ProjectStudigrid from '~/features/projects/components/ProjectStudigrid.vue'
 import ProjectEnvicorp from '~/features/projects/components/ProjectEnvicorp.vue'
 import ProjectIcaimt from '~/features/projects/components/ProjectIcaimt.vue'
+import ProjectTopqdrat from '~/features/projects/components/ProjectTopqdrat.vue'
 
 interface Props {
-  project?: 'diabetes' | 'elaraby' | 'elarabygermany' | 'kajito' | 'mwm' | 'studigrid' | 'ellamart' | 'meta' | 'envicorp' | 'icaimt'
+  project?: 'diabetes' | 'elaraby' | 'elarabygermany' | 'kajito' | 'mwm' | 'studigrid' | 'ellamart' | 'meta' | 'envicorp' | 'icaimt' | 'topqdrat'
 }
 
 defineProps<Props>()
